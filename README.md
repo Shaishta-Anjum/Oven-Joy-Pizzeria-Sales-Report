@@ -3,6 +3,9 @@
 
 Welcome to the Oven Joy Pizzeria Sales Report project! This repository contains SQL queries and corresponding visualizations created using Power BI for analyzing the sales data of Oven Joy Pizzeria and gain impactful insights from it.
 
+![Report](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-13%20234650.png?raw=true)
+![Report](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-13%20234729.png?raw=true)
+
 ## Key Performance Indicators (KPIs)
 
 1. **Total Revenue Generates**
@@ -10,8 +13,8 @@ Welcome to the Oven Joy Pizzeria Sales Report project! This repository contains 
       select sum(total_price) as total_revenue
       from pizza_sales;
       ```
-    - Result:
-      ![Total Revenue](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Total_Revenue.png?raw=true)     ![Total Revenue](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000254.png?raw=true)
+
+      ![Total Revenue](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Total_Revenue.png?raw=true)            ![Total Revenue](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000254.png?raw=true)
 
     - Additional Links:
         - [Link 1](#)
