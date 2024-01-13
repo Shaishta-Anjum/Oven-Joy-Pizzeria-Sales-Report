@@ -185,6 +185,5 @@ The dashboard allows you to filter the analysis based on Pizza category, offerin
 - The **Chicken Deluxe Pizza** contributes the most to total order and total quantity.
 - The **Brie Carre Pizza** contributes the least to total order & total quantity and generates the least revenue.
  
-...
 Feel free to navigate through the dashboard and uncover more valuable insights. Should you have any questions or suggestions, please don't hesitate to reach out. 
 Happy exploring!
