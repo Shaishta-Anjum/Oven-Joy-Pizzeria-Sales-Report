@@ -42,23 +42,25 @@ Welcome to the Oven Joy Pizzeria Sales Report project! This repository contains 
       ![Total Orders](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Total%20Orders%20placed.png?raw=true)![Total Orders](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000306.png?raw=true) 
 ...
 
-**Daily Trend**
+5. **Daily Trend**
      ```sql
      SELECT to_char(order_date, 'Day') AS order_day, COUNT(DISTINCT order_id) AS total_orders
      FROM pizza_sales
      GROUP BY to_char(order_date, 'Day');
      ```
-     ![Ordering Trend by Weekdays](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/daily%20trend.png?raw=true)     ![Ordering Trend by Weekdays](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000148.png?raw=true)
+     ![Ordering Trend by Weekdays](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/daily%20trend.png?raw=true)
+     ![Ordering Trend by Weekdays](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000148.png?raw=true)
 
 
-**Monthly Trend**
+6. **Monthly Trend**
      ```sql
      SELECT to_char(order_date, 'Month') AS order_month,
      COUNT(DISTINCT order_id) AS total_orders
      FROM pizza_sales
      GROUP BY to_char(order_date, 'Month');
      ```
-     ![Monthly Trend](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Monthly%20trend.png?raw=true)     ![Monthly Trend](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000212.png?raw=true)
+     ![Monthly Trend](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Monthly%20trend.png?raw=true)     
+     ![Monthly Trend](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000212.png?raw=true)
 
 
 ...
@@ -73,7 +75,8 @@ Welcome to the Oven Joy Pizzeria Sales Report project! This repository contains 
      from pizza_sales
      group by pizza_category;
      ```
-     ![Pizza Sales Percentage by category](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Pizza%20sales%20percentage%20by%20category.png?raw=true) ![Pizza Sales Percentage by category](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000242.png?raw=true)
+     ![Pizza Sales Percentage by category](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Pizza%20sales%20percentage%20by%20category.png?raw=true)
+     ![Pizza Sales Percentage by category](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000242.png?raw=true)
 
 
 ...
@@ -90,7 +93,8 @@ Welcome to the Oven Joy Pizzeria Sales Report project! This repository contains 
      order by pizza_revenue desc
      limit 5;
      ```
-     ![Top 5 Pizzas by Revenue](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/top%205%20by%20revenue.png?raw=true) ![Top 5 Pizzas by Revenue](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000339.png?raw=true)
+     ![Top 5 Pizzas by Revenue](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/top%205%20by%20revenue.png?raw=true) 
+     ![Top 5 Pizzas by Revenue](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000339.png?raw=true)
 
 ...
 
