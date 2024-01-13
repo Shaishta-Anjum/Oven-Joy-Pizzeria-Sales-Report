@@ -175,7 +175,7 @@ Welcome to the Oven Joy Pizzeria Sales Report project! This repository contains 
 ![Report](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-13%20234729.png?raw=true)
 
 
-The dashboard allows you to filter the analysis based on Pizza category, offering a comprehensive view of sales performance for each category. Additionally, leverage the sliders to narrow down the data within specific date ranges, providing you with the flexibility to analyze trends and patterns over time.
+The dashboard allows you to filter the analysis based on Pizza category, offering a comprehensive view of sales performance for each category. Additionally, you can leverage the sliders to narrow down the data within specific date ranges, providing you with the flexibility to analyze trends and patterns over time.
 
 ## Insights
 - Orders are highest on weekends, i.e. on **Friday/Saturday** evenings.
