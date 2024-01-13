@@ -43,10 +43,10 @@ Welcome to the Oven Joy Pizzeria Sales Report project! This repository contains 
      GROUP BY to_char(order_date, 'Day');
      ```
      ![Ordering Trend by Weekdays](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/daily%20trend.png?raw=true)
-     ![Ordering Trend by Weekdays](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000148.png?raw=true)
+   ![Ordering Trend by Weekdays](https://github.com/Shaishta-Anjum/Pizza-Sales-Report/blob/main/icons/Screenshot%202024-01-14%20000148.png?raw=true)
 
 
-6. **Monthly Trend**
+7. **Monthly Trend**
      ```sql
      SELECT to_char(order_date, 'Month') AS order_month,
      COUNT(DISTINCT order_id) AS total_orders
