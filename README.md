@@ -3,6 +3,8 @@
 
 Welcome to the Oven Joy Pizzeria Sales Report project! This repository contains SQL queries and corresponding visualizations created using Power BI for analyzing the sales data of Oven Joy Pizzeria and gain impactful insights from it.
 
+You can Check out the dashboard here: https://www.novypro.com/project/oven-joy-pizzeria-sales-analysis-report
+
 ## Key Performance Indicators (KPIs)
 
 1. **Total Revenue Generates**
